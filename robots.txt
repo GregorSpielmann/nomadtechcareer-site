@@ -1,0 +1,23 @@
+# NomadTechCareer.com — robots.txt
+# All crawlers welcome, including AI crawlers
+
+User-agent: *
+Allow: /
+
+# AI Crawlers — explicitly welcomed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://nomadtechcareer.com/sitemap.xml

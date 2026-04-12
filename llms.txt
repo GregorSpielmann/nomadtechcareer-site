@@ -1,0 +1,28 @@
+# NomadTechCareer.com
+
+> Practical guides for tech professionals who work from anywhere.
+
+NomadTechCareer is a content site focused on location-independent work for tech professionals. It covers remote work strategies, essential tools and setups, and in-depth city guides for popular digital nomad destinations.
+
+## Site Structure
+
+- Homepage: https://nomadtechcareer.com/
+- Articles hub: https://nomadtechcareer.com/articles/
+- City Guides hub: https://nomadtechcareer.com/city-guides/
+
+## Articles
+
+- [5 Reasons Tech Professionals Are Choosing Location Independence in 2026](https://nomadtechcareer.com/articles/location-independence-tech-professionals-2026/) — Why tech pros are going location-independent: cost arbitrage, timezone flexibility, infrastructure improvements, career growth, and life experience.
+- [The Digital Nomad's Tech Stack: Essential Tools for Working Anywhere](https://nomadtechcareer.com/articles/digital-nomad-tech-stack-essential-tools/) — Complete tech stack for remote work: connectivity, communication, productivity, security, finance, and hardware recommendations.
+
+## City Guides
+
+- [Working from Valencia, Spain](https://nomadtechcareer.com/city-guides/working-from-valencia/) — Comprehensive guide to remote work from Valencia: coworking spaces, neighborhoods, internet, costs, visa options, and daily life.
+
+## About
+
+Created by Gregor Spielmann. This site is built and operated with AI agents.
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/gregor-spielmann/
