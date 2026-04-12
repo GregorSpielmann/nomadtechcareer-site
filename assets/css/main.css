@@ -11,8 +11,8 @@
   --color-surface: #f7f8fa;
   --color-dark: #1a1a2e;
   --color-dark-mid: #16213e;
-  --color-accent: #f0a500;
-  --color-accent-hover: #d4920a;
+  --color-accent: #E8920A;
+  --color-accent-hover: #C47808;
   --color-text: #2d2d3a;
   --color-text-light: #55556d;
   --color-muted: #8888a0;
@@ -20,10 +20,10 @@
   --color-border-light: #eff0f3;
   --color-white: #ffffff;
   --color-card-bg: #ffffff;
-  --color-tag-bg: rgba(240, 165, 0, 0.12);
-  --color-tag-text: #b37a00;
+  --color-tag-bg: rgba(232, 146, 10, 0.14);
+  --color-tag-text: #9A6200;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-heading: 'Space Grotesk', 'Inter', -apple-system, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
   --max-width: 1120px;
   --content-width: 720px;
   --radius: 10px;
