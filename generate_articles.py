@@ -168,10 +168,12 @@ def generate_article_page(article, all_articles, city_guides):
         schema += "\n" + build_faq_schema(article["faqs"])
 
     # OG meta
-    og_meta = f"""<meta property="og:title" content="{article['seo_title']}">
+    canonical_url = f"{SITE_URL}/articles/{article['slug']}/"
+    og_meta = f"""<link rel="canonical" href="{canonical_url}">
+  <meta property="og:title" content="{article['seo_title']}">
   <meta property="og:description" content="{article['meta_description']}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="{SITE_URL}/articles/{article['slug']}/">
+  <meta property="og:url" content="{canonical_url}">
   <meta property="og:site_name" content="{SITE_NAME}">"""
 
     html = f"""<!DOCTYPE html>

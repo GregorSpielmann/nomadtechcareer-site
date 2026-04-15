@@ -207,10 +207,12 @@ def generate_guide_page(guide, all_guides, all_articles):
         schema += "\n" + build_faq_schema(guide["faqs"])
 
     # OG meta
-    og_meta = f"""<meta property="og:title" content="{guide['seo_title']}">
+    canonical_url = f"{SITE_URL}/city-guides/{guide['slug']}/"
+    og_meta = f"""<link rel="canonical" href="{canonical_url}">
+  <meta property="og:title" content="{guide['seo_title']}">
   <meta property="og:description" content="{guide['meta_description']}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="{SITE_URL}/city-guides/{guide['slug']}/">
+  <meta property="og:url" content="{canonical_url}">
   <meta property="og:site_name" content="{SITE_NAME}">"""
 
     html = f"""<!DOCTYPE html>
