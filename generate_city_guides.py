@@ -208,12 +208,18 @@ def generate_guide_page(guide, all_guides, all_articles):
 
     # OG meta
     canonical_url = f"{SITE_URL}/city-guides/{guide['slug']}/"
+    og_image = guide.get("og_image") or f"{SITE_URL}/assets/og-default.png"
     og_meta = f"""<link rel="canonical" href="{canonical_url}">
   <meta property="og:title" content="{guide['seo_title']}">
   <meta property="og:description" content="{guide['meta_description']}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{canonical_url}">
-  <meta property="og:site_name" content="{SITE_NAME}">"""
+  <meta property="og:site_name" content="{SITE_NAME}">
+  <meta property="og:image" content="{og_image}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{og_image}">"""
 
     html = f"""<!DOCTYPE html>
 <html lang="en">

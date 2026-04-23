@@ -169,12 +169,18 @@ def generate_article_page(article, all_articles, city_guides):
 
     # OG meta
     canonical_url = f"{SITE_URL}/articles/{article['slug']}/"
+    og_image = article.get("og_image") or f"{SITE_URL}/assets/og-default.png"
     og_meta = f"""<link rel="canonical" href="{canonical_url}">
   <meta property="og:title" content="{article['seo_title']}">
   <meta property="og:description" content="{article['meta_description']}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{canonical_url}">
-  <meta property="og:site_name" content="{SITE_NAME}">"""
+  <meta property="og:site_name" content="{SITE_NAME}">
+  <meta property="og:image" content="{og_image}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{og_image}">"""
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
